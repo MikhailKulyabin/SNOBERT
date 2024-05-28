@@ -1,11 +1,14 @@
 # SNOBERT: A Benchmark for clinical notes entity linking in the SNOMED CT clinical terminology
 
-## Approach
+## Method
 
-The method consists of two stages:
+![Method scheme](./images/scheme.png)
 
-- First stage: train NER segmentation task with four classes ('find', 'proc', 'body', 'none');
-- Second stage: for each span from the first stage, predict its SNOMED ID.
+The method consists of two stages: Candidate Selection (I) and Candidate Matching (II).
+- (I) NER classification problem;
+- (II) Linking the corresponding concept ID in SNOMED terminology.
+
+For more information and details about the dataset see: https://arxiv.org/abs/2405.16115
 
 ### First stage
 
