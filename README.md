@@ -246,3 +246,15 @@ To run in validation-scoring mode, run `python submission/main.py --val`.
     - `TRAIN_ANNOTAIONS_PATH` (`data/competition_data/cutmed_fixed_train_annotations.csv`)
 - **inference data**: `TEST_NOTES_PATH` (`data/competition_data/test_notes.csv`)
 - **path to save the results of inference**: `SUBMISSION_PATH` (`submission.csv`)
+
+## Citation
+```
+@misc{kulyabin2024snobert,
+      title={SNOBERT: A Benchmark for clinical notes entity linking in the SNOMED CT clinical terminology}, 
+      author={Mikhail Kulyabin and Gleb Sokolov and Aleksandr Galaida and Andreas Maier and Tomas Arias-Vergara},
+      year={2024},
+      eprint={2405.16115},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
